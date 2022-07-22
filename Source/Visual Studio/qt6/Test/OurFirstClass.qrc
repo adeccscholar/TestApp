@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/data">
+        <file>LocalizeFirstApp.xml</file>
+        <file>adecc_scholar.css</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>background.jpg</file>
+        <file>banner.jpg</file>
+        <file>dropdown-pfeil.png</file>
+        <file>profil.jpg</file>
+    </qresource>
+</RCC>

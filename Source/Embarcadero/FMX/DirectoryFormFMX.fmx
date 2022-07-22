@@ -1,0 +1,112 @@
+object frmWorkerFMX: TfrmWorkerFMX
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 636
+  ClientWidth = 1048
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 1048.000000000000000000
+    Size.Height = 43.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Panel4: TPanel
+      Align = Right
+      Position.X = 899.000000000000000000
+      Size.Width = 149.000000000000000000
+      Size.Height = 43.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object btnSelect: TButton
+        Position.X = 32.000000000000000000
+        Position.Y = 11.000000000000000000
+        TabOrder = 0
+        Text = 'btnSelect'
+        OnClick = btnSelectClick
+      end
+    end
+    object lblFile: TLabel
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Text = 'lblFile'
+      TabOrder = 1
+    end
+    object edtFile: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Anchors = [akLeft, akTop, akRight]
+      TabOrder = 2
+      Text = 'edtFile'
+      Position.X = 144.000000000000000000
+      Position.Y = 11.000000000000000000
+      Size.Width = 747.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Panel2: TPanel
+    Align = Bottom
+    Position.Y = 596.000000000000000000
+    Size.Width = 1048.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object btnClose: TButton
+      ModalResult = 8
+      Position.X = 40.000000000000000000
+      Position.Y = 8.000000000000000000
+      TabOrder = 0
+      Text = 'btnClose'
+    end
+    object btnStart: TButton
+      Position.X = 144.000000000000000000
+      Position.Y = 8.000000000000000000
+      TabOrder = 1
+      Text = 'btnStart'
+      OnClick = btnStartClick
+    end
+  end
+  object Panel3: TPanel
+    Align = Client
+    Size.Width = 1048.000000000000000000
+    Size.Height = 553.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object memError: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Bottom
+      Position.Y = 442.000000000000000000
+      Size.Width = 1048.000000000000000000
+      Size.Height = 111.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 1044.000000000000000000
+      Viewport.Height = 107.000000000000000000
+    end
+    object Splitter1: TSplitter
+      Align = Bottom
+      Cursor = crVSplit
+      MinSize = 20.000000000000000000
+      Position.Y = 434.000000000000000000
+      Size.Width = 1048.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object lvData: TStringGrid
+      Align = Client
+      CanFocus = True
+      ClipChildren = True
+      Size.Width = 1048.000000000000000000
+      Size.Height = 434.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Viewport.Width = 1044.000000000000000000
+      Viewport.Height = 409.000000000000000000
+    end
+  end
+end

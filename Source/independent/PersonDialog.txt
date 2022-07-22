@@ -1,0 +1,28 @@
+PersonDlg
+
+	[GroupBox] grpPerson
+	[Label]    lblSalutation            [ComboBox] cbxSalutation
+	[Label]    lblFirstName             [Edit]     edtFirstName
+	[Label]    lblName                  [Edit]     edtName
+	
+	[GroupBox] grpAddress
+	[Label]    lblZipCodeCity           [Edit]     edtZipCode               [Edit]    edtCity
+	[Label]    lblStreetExtension       [Edit]     edtStreet                [Edit]    edtStreetNumber
+	
+	[GroupBox] grpBankingAccount
+	[Label]    lblBankName              [Edit]     edtBankName
+	[Label]    lblIBANNumber            [Edit]     edtIBANNumber
+	[Label]    lblBIC                   [Edit]     edtBIC
+	[Label]    lblAccountHolder         [Edit]     edtAccountHolder
+
+	[GroupBox] grpEmployee
+	[Label]    lblDepartment            [ComboBox] cbxDepartment
+	[Label]    lblJobDescription        [Edit]     edtJobDescription
+	[Label]    lblSalary                [Edit]     edtSalary
+	[Label]    lblTaxNumber             [Edit]     edtTaxNumber
+	[Label]    lblSocialSecurityNumber  [Edit]     edtSocialSecurityNumber
+	[CheckBox] chkActive
+	
+	[Panel]    pnlBottom
+	[Button]   btnOk                    [Button]   btnCancel
+	

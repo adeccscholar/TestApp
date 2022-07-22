@@ -1,0 +1,167 @@
+object frmMainFMX: TfrmMainFMX
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 650
+  ClientWidth = 982
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Right
+    Position.X = 800.000000000000000000
+    Size.Width = 182.000000000000000000
+    Size.Height = 628.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object btnRollDice: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 208.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'btnRollDice'
+      OnClick = btnRollDiceClick
+    end
+    object btnPersonList: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 162.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'btnPersonList'
+      OnClick = btnPersonListClick
+    end
+    object btnPersonNew: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'btnPersonNew'
+      OnClick = btnPersonNewClick
+    end
+    object btnPersonEdit: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 46.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'btnPersonEdit'
+      OnClick = btnPersonEditClick
+    end
+    object btnEmployeeNew: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 88.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'btnEmployeeNew'
+      OnClick = btnEmployeeNewClick
+    end
+    object btnEmployeeEdit: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 118.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'btnEmployeeEdit'
+      OnClick = btnEmployeeEditClick
+    end
+    object edtValues: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 6
+      TextSettings.HorzAlign = Trailing
+      Position.X = 16.000000000000000000
+      Position.Y = 238.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object btnWork: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 280.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = 'btnWork'
+      OnClick = btnWorkClick
+    end
+    object btnClose: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 408.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      Text = 'btnClose'
+      OnClick = btnCloseClick
+    end
+  end
+  object Panel2: TPanel
+    Align = Client
+    Size.Width = 800.000000000000000000
+    Size.Height = 628.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object memOutput: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Client
+      Size.Width = 800.000000000000000000
+      Size.Height = 470.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 796.000000000000000000
+      Viewport.Height = 466.000000000000000000
+    end
+    object memError: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Bottom
+      Position.Y = 472.000000000000000000
+      Size.Width = 800.000000000000000000
+      Size.Height = 156.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Viewport.Width = 796.000000000000000000
+      Viewport.Height = 152.000000000000000000
+    end
+    object Splitter1: TSplitter
+      Align = Bottom
+      Cursor = crVSplit
+      MinSize = 20.000000000000000000
+      Position.Y = 470.000000000000000000
+      Size.Width = 800.000000000000000000
+      Size.Height = 2.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object StatusBar1: TStatusBar
+    Position.Y = 628.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 982.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object sbMain: TLabel
+      Position.X = 8.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 937.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'sbMain'
+      TabOrder = 0
+    end
+  end
+end

@@ -1,0 +1,39 @@
+object frmPersonListFMX: TfrmPersonListFMX
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 686
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lvPersons: TStringGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Locked = True
+    Size.Width = 686.000000000000000000
+    Size.Height = 424.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 682.000000000000000000
+    Viewport.Height = 399.000000000000000000
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Position.Y = 424.000000000000000000
+    Size.Width = 686.000000000000000000
+    Size.Height = 56.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btnOk: TButton
+      Default = True
+      ModalResult = 1
+      Position.X = 40.000000000000000000
+      Position.Y = 16.000000000000000000
+      TabOrder = 1
+      Text = 'btnOk'
+    end
+  end
+end

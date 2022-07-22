@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<forms>
+<form name="frmMain" id="100">
+<caption>Test application for programming with C++</caption>
+<components>
+<component name="btnPersonNew" ID="101" type="3" alignment="3">
+<text>Create new person ...</text>
+<hint></hint>
+</component>
+<component name="memOutput" ID="102" type="7" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="memError" ID="103" type="7" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="btnPersonEdit" ID="104" type="3" alignment="3">
+<text>Edit person</text>
+<hint></hint>
+</component>
+<component name="btnEmployeeNew" ID="105" type="3" alignment="3">
+<text>Create employee</text>
+<hint></hint>
+</component>
+<component name="btnEmployeeEdit" ID="106" type="3" alignment="3">
+<text>Edit employee</text>
+<hint></hint>
+</component>
+<component name="btnPersonList" ID="107" type="3" alignment="3">
+<text>List of persons</text>
+<hint></hint>
+</component>
+<component name="btnRollDice" ID="108" type="3" alignment="3">
+<text>Roll the dice</text>
+<hint></hint>
+</component>
+<component name="edtValues" ID="109" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="btnWork" ID="110" type="3" alignment="3">
+<text>Work on</text>
+<hint></hint>
+</component>
+<component name="btnClose" ID="111" type="3" alignment="3">
+<text>Close                </text>
+<hint></hint>
+</component>
+<component name="sbMain" ID="112" type="8" alignment="1">
+<text>Ready</text>
+<hint></hint>
+</component>
+</components>
+</form>
+<form name="frmAddress" id="120">
+<caption>Address data</caption>
+<components>
+<component name="grpAddress" ID="121" type="2" alignment="1">
+<text>Address</text>
+<hint></hint>
+</component>
+<component name="lblZipCodeCity" ID="122" type="1" alignment="1">
+<text>Zip code / City:</text>
+<hint></hint>
+</component>
+<component name="lblStreetExtension" ID="123" type="1" alignment="1">
+<text>Street / Number:</text>
+<hint></hint>
+</component>
+<component name="edtZipCode" ID="124" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtCity" ID="125" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtStreet" ID="126" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtStreetNumber" ID="127" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+</components>
+</form>
+<form name="frmBanking" id="130">
+<caption>Bank details</caption>
+<components>
+<component name="grpBankingAccount" ID="131" type="2" alignment="1">
+<text>Bank details</text>
+<hint></hint>
+</component>
+<component name="lblBankName" ID="132" type="1" alignment="1">
+<text>Name of the bank:</text>
+<hint></hint>
+</component>
+<component name="lblIBANNumber" ID="133" type="1" alignment="1">
+<text>IBAN</text>
+<hint></hint>
+</component>
+<component name="lblBIC" ID="134" type="1" alignment="1">
+<text>BIC</text>
+<hint></hint>
+</component>
+<component name="lblAccountHolder" ID="135" type="1" alignment="1">
+<text>Account holder</text>
+<hint></hint>
+</component>
+<component name="edtBankName" ID="136" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtIBANNumber" ID="137" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtBIC" ID="138" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtAccountHolder" ID="139" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+</components>
+</form>
+<form name="frmPerson" id="150">
+<caption>Personal data dialog</caption>
+<components>
+<component name="grpPerson" ID="151" type="2" alignment="1">
+<text>Personal data</text>
+<hint></hint>
+</component>
+<component name="lblSalutation" ID="152" type="1" alignment="1">
+<text>Salutation:</text>
+<hint></hint>
+</component>
+<component name="lblFirstName" ID="153" type="1" alignment="1">
+<text>First name:</text>
+<hint></hint>
+</component>
+<component name="lblName" ID="154" type="1" alignment="1">
+<text>Last name:</text>
+<hint></hint>
+</component>
+<component name="cbxSalutation" ID="155" type="6" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtFirstName" ID="156" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtName" ID="157" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="btnOk" ID="158" type="3" alignment="3">
+<text>Save</text>
+<hint></hint>
+</component>
+<component name="btnCancel" ID="159" type="3" alignment="3">
+<text>Cancel</text>
+<hint></hint>
+</component>
+</components>
+</form>
+<form name="frmEmployee" id="160">
+<caption>Employee Data Dialog</caption>
+<components>
+<component name="grpEmployee" ID="161" type="2" alignment="1">
+<text>Employee</text>
+<hint></hint>
+</component>
+<component name="lblDepartment" ID="162" type="1" alignment="1">
+<text>Department:</text>
+<hint></hint>
+</component>
+<component name="lblJobDescription" ID="163" type="1" alignment="1">
+<text>Description:</text>
+<hint></hint>
+</component>
+<component name="lblSalary" ID="164" type="1" alignment="1">
+<text>Salary:</text>
+<hint></hint>
+</component>
+<component name="lblTaxNumber" ID="165" type="1" alignment="1">
+<text>Tax number:</text>
+<hint></hint>
+</component>
+<component name="lblSocialSecurityNumber" ID="166" type="1" alignment="1">
+<text>Insurance number:</text>
+<hint></hint>
+</component>
+<component name="edtJobDescription" ID="167" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtSalary" ID="168" type="0" alignment="2">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtTaxNumber" ID="169" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="edtSocialSecurityNumber" ID="170" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="cbxDepartment" ID="171" type="6" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="chkActive" ID="172" type="5" alignment="1">
+<text>Active</text>
+<hint></hint>
+</component>
+<component name="btnOk" ID="173" type="3" alignment="3">
+<text>Save</text>
+<hint></hint>
+</component>
+<component name="btnCancel" ID="174" type="3" alignment="3">
+<text>Cancel</text>
+<hint></hint>
+</component>
+</components>
+</form>
+<form name="frmPersonList" id="180">
+<caption>Show persons ...</caption>
+<components>
+<component name="lvPersons" ID="181" type="9" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="btnOk" ID="182" type="3" alignment="1">
+<text>Save</text>
+<hint></hint>
+</component>
+</components>
+</form>
+<form name="frmWork" id="190">
+<caption>Form to process the data</caption>
+<components>
+<component name="lblFile" ID="191" type="1" alignment="1">
+<text>Data file:</text>
+<hint></hint>
+</component>
+<component name="edtFile" ID="192" type="0" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="lvData" ID="193" type="9" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="memError" ID="194" type="7" alignment="1">
+<text></text>
+<hint></hint>
+</component>
+<component name="btnSelect" ID="195" type="3" alignment="1">
+<text>Selection</text>
+<hint></hint>
+</component>
+<component name="btnStart" ID="196" type="3" alignment="1">
+<text>Evaluation</text>
+<hint></hint>
+</component>
+<component name="btnClose" ID="197" type="3" alignment="1">
+<text>Close</text>
+<hint></hint>
+</component>
+</components>
+</form>
+</forms>
+<lists>
+<list name="person_list">
+<cols>
+<col name="Salutation" width="120" alignment="1" />
+<col name="First name" width="200" alignment="1" />
+<col name="Name" width="200" alignment="1" />
+<col name="Age" width="110" alignment="2" />
+</cols>
+</list>
+<list name="address_list">
+<cols>
+<col name="ZIP CODE   " width="150" alignment="3" />
+<col name="City" width="250" alignment="1" />
+<col name="Municipality" width="250" alignment="1" />
+<col name="Street" width="250" alignment="1" />
+<col name="Number " width="150" alignment="2" />
+<col name="Distance" width="200" alignment="2" />
+<col name="Angle" width="200" alignment="2" />
+</cols>
+</list>
+</lists>
+<repositories>
+<repository name="Salutations">
+<items>
+<item name="Mr." ID="1" />
+<item name="Mrs." ID="2" />
+<item name="Diverse" ID="3" />
+<item name="unknown" ID="9" />
+</items>
+</repository>
+<repository name="Departments">
+<items>
+<item name="Accounting" ID="1" />
+<item name="Controlling" ID="2" />
+<item name="Human Resources" ID="3" />
+<item name="Marketing" ID="4" />
+<item name="EDP" ID="5" />
+<item name="Purchasing" ID="6" />
+<item name="Production 1" ID="7" />
+<item name="Production 2" ID="8" />
+<item name="Sales" ID="9" />
+<item name="Support" ID="10" />
+<item name="Production support" ID="11" />
+</items>
+</repository>
+</repositories>

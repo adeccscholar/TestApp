@@ -26,3 +26,6 @@ In doing so, I have set the following guidelines:
 - use of regular expressions, standard containers
 - limited use of free libraries like boost and pugiXML
 
+
+
+There are Data to test a function in directory "Data" in this repositories. This data have a separate licence.
