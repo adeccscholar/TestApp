@@ -13,4 +13,7 @@ public:
 
 private:
     Ui::PersonDlgClass ui;
+
+private slots:
+    void SalaryEditChanged(void);
 };
