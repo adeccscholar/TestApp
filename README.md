@@ -7,7 +7,7 @@ step by step over next 1.5 months.  The videos are now available on our Youtube 
 ["adecc Systemhaus GmbH"](https://www.youtube.com/channel/UCFviXIMSxXt_789Kb_SLqAA) and can be found in 
 the playlist ["Semesterpausenprojekt 1"](https://www.youtube.com/playlist?list=PL3kb_jqZh5ZtaluOHhOz_8DaMociGpaRe). 
 
-#Modern C++ live, a problem "build from scratch" with modern C++
+# Modern C++ live, a problem "build from scratch" with modern C++
 
 I was thinking if you can somehow connect all the requirements and work them out on a concrete problem. 
 And how to get this into the semester free time. Since most of the people already have to do with C++, 
@@ -37,7 +37,7 @@ there is a separate discussion area on our [Discord server](https://discord.com/
 - open discussion (chat, mailing, Discord), questions, ideas
 
 
-#Licence
+# Licence
 
 The project is open source and usable with MIT licence.
 
